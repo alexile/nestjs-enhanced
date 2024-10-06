@@ -1,0 +1,18 @@
+{
+  "name": "@nestjs-enhanced/ts-config",
+  "version": "0.1.0",
+  "description": "A strict, consistent tsconfig.json for a Nest.js application",
+  "license": "MIT",
+  "author": "alexile <obsmyprof@gmail.com>",
+  "main": "tsconfig.json",
+  "peerDependencies": {
+    "typescript": ">4.0.0"
+  },
+  "keywords": [
+    "nestjs",
+    "strict",
+    "tsconfig",
+    "typescript"
+  ],
+  "packageManager": "yarn@4.3.1"
+}
