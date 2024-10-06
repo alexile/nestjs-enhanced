@@ -1,4 +1,4 @@
-# @nestjs-enhanced/ts-config
+# @enhanced-nestjs/ts-config
 
 A strict, consistent `tsconfig.json` for NestJS applications, designed to enforce best practices and enhance the reliability of your TypeScript codebase.
 
@@ -7,13 +7,13 @@ A strict, consistent `tsconfig.json` for NestJS applications, designed to enforc
 To install this package, you can use either Yarn or npm:
 
 ```bash
-yarn add @nestjs-enhanced/ts-config
+yarn add @enhanced-nestjs/ts-config
 ```
 
 or
 
 ```bash
-npm install @nestjs-enhanced/ts-config
+npm install @enhanced-nestjs/ts-config
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ To use this `tsconfig` in your NestJS project, you can extend it in your `tsconf
 
 ```json
 {
-  "extends": "@nestjs-enhanced/ts-config"
+  "extends": "@enhanced-nestjs/ts-config"
 }
 ```
 
@@ -30,7 +30,7 @@ and `tsconfig.build.json`:
 
 ```json
 {
-  "extends": "@nestjs-enhanced/ts-config",
+  "extends": "@enhanced-nestjs/ts-config",
   "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
 }
 ```
