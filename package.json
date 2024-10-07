@@ -1,4 +1,9 @@
 {
   "name": "root",
+  "workspaces": [
+    "packages/electron-ipc-transport",
+    "packages/ts-config",
+    "packages/prettier"
+  ],
   "packageManager": "yarn@4.3.1"
 }

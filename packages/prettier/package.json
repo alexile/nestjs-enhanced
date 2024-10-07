@@ -1,0 +1,19 @@
+{
+  "name": "@enhanced-nestjs/prettier",
+  "version": "0.1.0",
+  "description": "A prettier configuration for a Nest.js application",
+  "license": "MIT",
+  "author": "alexile <obsmyprof@gmail.com>",
+  "main": ".prettierrc.js",
+  "peerDependencies": {
+    "prettier": ">3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "keywords": [
+    "nestjs",
+    "prettier"
+  ],
+  "packageManager": "yarn@4.3.1"
+}

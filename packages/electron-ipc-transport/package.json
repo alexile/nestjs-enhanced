@@ -1,0 +1,28 @@
+{
+  "name": "@enhanced-nestjs/electron",
+  "version": "0.1.0",
+  "description": "An Electron integration with Nest.js with a custom Electron IPC transport strategy for a Nest.js microservice",
+  "license": "MIT",
+  "author": "alexile <obsmyprof@gmail.com>",
+  "main": "tsconfig.json",
+  "peerDependencies": {
+    "@nestjs/microservices": ">9.0.0",
+    "electron": ">28.0.0",
+    "typescript": ">4.0.0"
+  },
+  "devDependencies": {
+    "@enhanced-nestjs/prettier": "^0.1.0",
+    "@enhanced-nestjs/ts-config": "^0.1.0",
+    "@nestjs/microservices": "^10.4.4",
+    "electron": "^33.0.0-beta.7",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
+  },
+  "keywords": [
+    "electron",
+    "microservice",
+    "nestjs"
+  ],
+  "packageManager": "yarn@4.3.1",
+  "prettier": "@enhanced-nestjs/prettier"
+}

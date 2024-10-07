@@ -1,7 +1,6 @@
 {
   "name": "@enhanced-nestjs/ts-config",
   "version": "0.1.0",
-  "private": false,
   "description": "A strict, consistent tsconfig.json for a Nest.js application",
   "license": "MIT",
   "author": "alexile <obsmyprof@gmail.com>",
