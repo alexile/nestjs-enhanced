@@ -3,7 +3,8 @@
   "workspaces": [
     "packages/electron-ipc-transport",
     "packages/ts-config",
-    "packages/prettier"
+    "packages/prettier",
+    "packages/eslint-config"
   ],
   "packageManager": "yarn@4.3.1"
 }

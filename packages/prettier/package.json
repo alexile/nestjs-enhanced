@@ -1,10 +1,10 @@
 {
   "name": "@enhanced-nestjs/prettier",
-  "version": "0.1.0",
-  "description": "A prettier configuration for a Nest.js application",
+  "version": "0.1.1",
+  "description": "A strict prettier configuration for a Nest.js application",
   "license": "MIT",
   "author": "alexile <obsmyprof@gmail.com>",
-  "main": ".prettierrc.js",
+  "main": ".prettierrc.mjs",
   "peerDependencies": {
     "prettier": ">3.0.0"
   },
