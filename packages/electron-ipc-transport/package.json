@@ -11,8 +11,10 @@
     "typescript": ">4.0.0"
   },
   "devDependencies": {
-    "@enhanced-nestjs/prettier": "^0.1.0",
+    "@enhanced-nestjs/eslint-config": "^0.1.0",
+    "@enhanced-nestjs/prettier": "^0.1.1",
     "@enhanced-nestjs/ts-config": "^0.1.0",
+    "@nestjs/common": "^10.4.4",
     "@nestjs/microservices": "^10.4.4",
     "electron": "^33.0.0-beta.7",
     "prettier": "^3.3.3",
@@ -23,6 +25,9 @@
     "microservice",
     "nestjs"
   ],
+  "eslintConfig": {
+    "extends": "@enhanced-nestjs/eslint-config"
+  },
   "packageManager": "yarn@4.3.1",
   "prettier": "@enhanced-nestjs/prettier"
 }

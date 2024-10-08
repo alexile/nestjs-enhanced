@@ -7,7 +7,9 @@ export class ElectronIpcTransport extends Server implements CustomTransportStrat
     super();
   }
 
-  close(): any {}
+  close(): void {
+    // TODO
+  }
 
   private createWindow() {
     if (BrowserWindow.getAllWindows().length === 0) {
@@ -20,7 +22,7 @@ export class ElectronIpcTransport extends Server implements CustomTransportStrat
     }
   }
 
-  async listen(callback: (...optionalParams: unknown[]) => any): Promise<any> {
+  async listen(callback: (...optionalParams: unknown[]) => void): Promise<void> {
     app.on('ready', () => this.createWindow());
     app.on('activate', () => this.createWindow());
     app.on('window-all-closed', () => {

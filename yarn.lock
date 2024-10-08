@@ -28,8 +28,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@enhanced-nestjs/electron@workspace:packages/electron-ipc-transport"
   dependencies:
-    "@enhanced-nestjs/prettier": "npm:^0.1.0"
+    "@enhanced-nestjs/eslint-config": "npm:^0.1.0"
+    "@enhanced-nestjs/prettier": "npm:^0.1.1"
     "@enhanced-nestjs/ts-config": "npm:^0.1.0"
+    "@nestjs/common": "npm:^10.4.4"
     "@nestjs/microservices": "npm:^10.4.4"
     electron: "npm:^33.0.0-beta.7"
     prettier: "npm:^3.3.3"
@@ -41,7 +43,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@enhanced-nestjs/eslint-config@workspace:packages/eslint-config":
+"@enhanced-nestjs/eslint-config@npm:^0.1.0, @enhanced-nestjs/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@enhanced-nestjs/eslint-config@workspace:packages/eslint-config"
   dependencies:
@@ -55,7 +57,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@enhanced-nestjs/prettier@npm:^0.1.0, @enhanced-nestjs/prettier@workspace:packages/prettier":
+"@enhanced-nestjs/prettier@npm:^0.1.1, @enhanced-nestjs/prettier@workspace:packages/prettier":
   version: 0.0.0-use.local
   resolution: "@enhanced-nestjs/prettier@workspace:packages/prettier"
   dependencies:
@@ -177,6 +179,34 @@ __metadata:
   version: 0.3.1
   resolution: "@humanwhocodes/retry@npm:0.3.1"
   checksum: 10c0/f0da1282dfb45e8120480b9e2e275e2ac9bbe1cf016d046fdad8e27cc1285c45bb9e711681237944445157b430093412b4446c1ab3fc4bb037861b5904101d3b
+  languageName: node
+  linkType: hard
+
+"@lukeed/csprng@npm:^1.0.0":
+  version: 1.1.0
+  resolution: "@lukeed/csprng@npm:1.1.0"
+  checksum: 10c0/5d6dcf478af732972083ab2889c294b57f1028fa13c2c240d7a4aaa079c2c75df7ef0dcbdda5419147fc6704b4adf96b2de92f1a9a72ac21c6350c4014fffe6c
+  languageName: node
+  linkType: hard
+
+"@nestjs/common@npm:^10.4.4":
+  version: 10.4.4
+  resolution: "@nestjs/common@npm:10.4.4"
+  dependencies:
+    iterare: "npm:1.2.1"
+    tslib: "npm:2.7.0"
+    uid: "npm:2.0.2"
+  peerDependencies:
+    class-transformer: "*"
+    class-validator: "*"
+    reflect-metadata: ^0.1.12 || ^0.2.0
+    rxjs: ^7.1.0
+  peerDependenciesMeta:
+    class-transformer:
+      optional: true
+    class-validator:
+      optional: true
+  checksum: 10c0/af9d0df92320752323cfa1144cf5eb47e6ec9df6378c7d6499e95994e3a440275621c48feab2d7bcce1c4f56cf29193651b7ea1c48d8771b3a70580c642687ba
   languageName: node
   linkType: hard
 
@@ -1796,6 +1826,15 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 10c0/e6c1662e4852e22fe4bbdca471dca3e3edc74f6f1df043135c44a18a7902037023ccb0abdfb754595ca9028df8920f2f8492c00fc3cbb4309079aae8b7de71cd
+  languageName: node
+  linkType: hard
+
+"uid@npm:2.0.2":
+  version: 2.0.2
+  resolution: "uid@npm:2.0.2"
+  dependencies:
+    "@lukeed/csprng": "npm:^1.0.0"
+  checksum: 10c0/e9d02d0562c74e74b5a2519e586db9d7f8204978e476cddd191ee1a9efb85efafdbab2dbf3fc3dde0f5da01fd9da161f37d604dabf513447fd2c03d008f1324c
   languageName: node
   linkType: hard
 
