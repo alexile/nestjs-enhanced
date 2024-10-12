@@ -2,6 +2,7 @@
   "name": "root",
   "workspaces": [
     "packages/electron-ipc-transport",
+    "packages/request-context",
     "packages/ts-config",
     "packages/prettier",
     "packages/eslint-config"

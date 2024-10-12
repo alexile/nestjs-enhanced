@@ -67,6 +67,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@enhanced-nestjs/request-context@workspace:packages/request-context":
+  version: 0.0.0-use.local
+  resolution: "@enhanced-nestjs/request-context@workspace:packages/request-context"
+  dependencies:
+    "@enhanced-nestjs/eslint-config": "npm:^0.1.0"
+    "@enhanced-nestjs/prettier": "npm:^0.1.1"
+    "@enhanced-nestjs/ts-config": "npm:^0.1.0"
+    "@nestjs/common": "npm:^10.4.4"
+    typescript: "npm:^5.6.2"
+  peerDependencies:
+    typescript: ">4.0.0"
+  languageName: unknown
+  linkType: soft
+
 "@enhanced-nestjs/ts-config@npm:^0.1.0, @enhanced-nestjs/ts-config@workspace:packages/ts-config":
   version: 0.0.0-use.local
   resolution: "@enhanced-nestjs/ts-config@workspace:packages/ts-config"
